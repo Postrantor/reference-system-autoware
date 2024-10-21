@@ -24,19 +24,19 @@ A _reference system_ is defined by:
   [平台](#supported-platforms)由以下各项定义：
   - Hardware (e.g. an off-the-shelf single-board computer, embedded ECU, etc.)
     硬件（例如现成的单板计算机、嵌入式 ECU 等）
-    - if there are multiple configurations available for such hardware, ensure it is specified  
+    - if there are multiple configurations available for such hardware, ensure it is specified
       如果此类硬件有多个配置可用，请确保已指定
-  - Operating System (OS) like RT linux, QNX, etc. along with any special configurations made  
+  - Operating System (OS) like RT linux, QNX, etc. along with any special configurations made
     操作系统 （OS），如 RT linux、QNX 等，以及所做的任何特殊配置
 - for simplicity and ease of benchmarking, **all nodes must run on a single process**
   为了简单和易于进行基准测试，**所有节点都必须在单个进程上运行**
-- a fixed number of nodes  
+- a fixed number of nodes
   固定数量的节点
   - each node with:
     每个节点具有：
-    - a fixed number of publishers and subscribers  
+    - a fixed number of publishers and subscribers
       固定数量的发布者和订阅者
-    - a fixed _processing time_ or a fixed _publishing rate_  
+    - a fixed _processing time_ or a fixed _publishing rate_
       固定*的处理时间*或固定*的发布速率*
 - a fixed _message type_ of fixed size to be used for every _node_.
   用于每个*节点*的固定大小的固定*消息类型*。
